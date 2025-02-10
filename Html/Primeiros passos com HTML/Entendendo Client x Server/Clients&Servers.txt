@@ -1,0 +1,26 @@
+Client:
+- O que são clients: Consumidor da informação
+- Server: Hospedeiro da informação
+
+Client - O servidor retorna arquivos html, css, 
+javascript, imagens. 
+
+Design responsivo ou responsividade - Diferentes 
+resoluções
+
+Navegadores:
+- São programas criadas por empresas, utilizados para
+abrir/executar arquivos.
+- Seguem padrões W3C, porém, sempre tem uma diferença
+ou outra de interpretação.
+- Também chamados de "browsers"
+- Iniciou com o MOSAIC, passou para o Netscape, e hoje
+temos uma variedade de navegadores disponíveis.
+- Gratuitos
+
+Aplicações Web
+
+Clients - internet - Servidores - Dbs
+
+Aplicações web possuem dominio através do navegador
+Quando são aplicativos instalados, não são Aplicações web
