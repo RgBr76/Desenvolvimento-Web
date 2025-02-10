@@ -1,0 +1,6 @@
+Client:
+- O que são clients: Consumidor da informação
+- Server: Hospedeiro da informação
+
+Client - O servidor retorna arquivos html, css, 
+javascript, imagens. 
