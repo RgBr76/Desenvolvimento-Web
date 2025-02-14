@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="PT-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Trabalhando com tabelas - DIO.me</title>
+
+    <style>
+        table{
+            -webkit-box-shadow: 12px 14px 15px 5px gray; 
+            box-shadow: 12px 14px 15px 5px gray;
+        }
+        table thead th{
+            background-color: black;
+            color: white;
+        }
+        table tfoot td{
+            background-color: lightgray;
+        }
+        table tbody tr:nth-child(even) td {
+            background-color: rgba(243, 243, 243, 0.919);
+        }
+        table tbody tr:hover td{
+            background-color: rgb(215, 215, 215);
+            cursor: pointer;
+        }
+    </style>
+
+</head>
+<body>
+    <table summary="Esssa é uma tabela" width="250" align="center" cellspacing="0" cellpadding="5px">
+        <caption>Tabela de idades dos alunos da DiO.me</caption>
+        <thead>
+            <tr>
+                <th colspan="2" >Minha tabela</th>
+
+            </tr>
+            <tr>
+                <th title="Nome completo">Nome</th>
+                <th>Idade</th>
+            </tr>
+        </thead>
+
+        <tbody>
+            <tr>
+                <td>Rodrigo</td>
+                <td>17</td>
+            </tr>
+            <tr>
+                <td>Geovana</td>
+                <td>15</td>
+            </tr>
+            <tr>
+                <td>Claudia</td>
+                <td>55</td>
+            </tr>
+            <tr>
+                <td>Yghor</td>
+                <td>18</td>
+            </tr>
+            <tr>
+                <td>Álvaro</td>
+                <td>17</td>
+            </tr>
+        </tbody>
+        <tfoot>
+            <tr>
+                <td>Total</td>
+                <td>6</td>
+            </tr>
+        </tfoot>
+    </table>
+</body>
+</html>
